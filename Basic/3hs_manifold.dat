@@ -1,0 +1,700 @@
+1
+
+   Abaqus 6.10-1                                  Date 12-Nov-2020   Time 11:28:01
+   For use by Team AWXS under license from Dassault Systemes or its subsidiary.
+
+
+
+                         The Abaqus Software is a product of:
+
+                           Dassault Systemes Simulia Corp.
+                                 Rising Sun Mills
+                                 166 Valley Street
+                           Providence, RI 02909-2499, USA
+ 
+
+
+                   The Abaqus Software is available only under license
+                   from Dassault Systemes or its subsidiary and may be
+                   used or reproduced only in accordance with the terms
+                   of such license.
+ 
+                          On machine DESKTOP-USLTNFQ 
+                          you are authorized to run
+                          Abaqus/Standard until 07-Jul-2028
+
+                          Your site id is: AE125930 
+
+
+ 
+                    For assistance or any other information you may
+                    obtain contact information for your local office
+                    from the world wide web at:
+
+                      http://www.simulia.com/about/locations.html
+
+ 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+                *                                                         * 
+                *                   *****************                     * 
+                *                   *  N O T I C E  *                     * 
+                *                   *****************                     * 
+                *                                                         * 
+                *                                                         * 
+                *                    Abaqus 6.10-1                        * 
+                *                                                         * 
+                *          BUILD ID: 2010_04_29-14.17.36 102575           * 
+                *                                                         * 
+                *                                                         * 
+                *  Please make sure you are using release 6.10manuals     * 
+                *  plus the notes accompanying this release.              * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                *                                                         * 
+                * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+
+
+ 
+
+
+
+     PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   *******************************************************
+
+
+     END PROCESSING PART, INSTANCE, AND ASSEMBLY INFORMATION
+   ***********************************************************
+
+
+
+
+     OPTIONS BEING PROCESSED
+   ***************************
+
+
+  *Heading
+  *Node
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Element, type=DC3D6
+  *Element, type=DC3D8
+  *Elset, elset=ASSEMBLY_PART-1-1_PART-1-1_PSOLID_3
+  *Nset, nset=ASSEMBLY__M5
+  *Nset, nset=ASSEMBLY__PICKEDSET11
+  *Nset, nset=ASSEMBLY__PICKEDSET12
+  *Nset, nset=ASSEMBLY__PICKEDSET13
+  *Elset, elset=ASSEMBLY_ALL_3DSOLID
+  *Elset, elset=ASSEMBLY_ALL_MASSIVE_ELEMENTS
+  *Elset, elset=ASSEMBLY___PICKEDSURF14_S2
+  *Elset, elset=ASSEMBLY___PICKEDSURF14_S4
+  *Elset, elset=ASSEMBLY___PICKEDSURF8_S2
+  *Elset, elset=ASSEMBLY___PICKEDSURF8_S2_1
+  *Elset, elset=ASSEMBLY___PICKEDSURF8_S4
+  *Elset, elset=ASSEMBLY___PICKEDSURF8_S4_1
+  *surface, type=ELEMENT, name=ASSEMBLY__PICKEDSURF8
+  *surface, type=ELEMENT, name=ASSEMBLY__PICKEDSURF14
+  *surface, type=ELEMENT, name=ASSEMBLY__PICKEDSURF8
+  *surface, type=ELEMENT, name=ASSEMBLY__PICKEDSURF14
+  *material, name=CHROMIUM
+  *conductivity
+  *initialconditions, type=TEMPERATURE
+  *initialconditions, type=TEMPERATURE
+  *solidsection, elset=ASSEMBLY_PART-1-1_PART-1-1_PSOLID_3, material=CHROMIUM
+  *boundary
+  *boundary
+  *solidsection, elset=ASSEMBLY_PART-1-1_PART-1-1_PSOLID_3, material=CHROMIUM
+  *surface, type=ELEMENT, name=ASSEMBLY__PICKEDSURF8
+  *surface, type=ELEMENT, name=ASSEMBLY__PICKEDSURF14
+  *output, field, variable=PRESELECT
+  *output, history, frequency=0
+  *initialconditions, type=TEMPERATURE
+  *output, field, variable=PRESELECT
+  *output, history, frequency=0
+  *initialconditions, type=TEMPERATURE
+  *output, field, variable=PRESELECT
+  *output, history, frequency=0
+  *Step, name=Steady
+  *output, field, variable=PRESELECT
+  *output, history, frequency=0
+  *Step, name=Steady
+  *Step, name=Steady
+  *heattransfer, steadystate, deltmx=0
+  *boundary
+  *boundary
+  *dsflux
+  *output, field, variable=PRESELECT
+  *output, history, frequency=0
+  *endstep
+  *Step, name=Steady
+  *heattransfer, steadystate, deltmx=0
+  *boundary
+  *boundary
+  *output, field, variable=PRESELECT
+  *output, history, frequency=0
+  *endstep
+  
+                               E L E M E N T   Q U A L I T Y  C H E C K S        
+  
+  
+ ***NOTES: DISTORTED ISOPARAMETRIC ELEMENTS: ANGLE BETWEEN ISOPARAMETRIC LINES 
+           IS LESS THAN 45 DEGREES OR GREATER THAN 135 DEGREES.
+  
+           TETRAHEDRAL QUALITY MEASURE: VOLUME OF TETRAHEDRON DIVIDED BY THE 
+           VOLUME OF EQUILATERAL TETRAHEDRON WITH SAME CIRCUMSPHERE RADIUS; 
+           0 FOR DEGENERATE TETRAHEDRON AND 1 FOR EQUILATERIAL TETRAHEDRON. IT 
+           IS RECOMMENDED THAT THE TETRAHEDRAL QUALITY MEASURE BE GREATER THAN 
+           0.02, THE MIN INTERIOR (DIHEDRAL) ANGLE BE GREATER THAN 10 DEGREES, 
+           AND THE MAX INTERIOR (DIHEDRAL) ANGLE BE LESS THAN 160 DEGREES. 
+  
+           TRIANGULAR QUALITY MEASURE: AREA OF TRIANGLE DIVIDED BY THE AREA OF 
+           EQUILATERAL TRIANGLE WITH SAME CIRCUMCIRCLE RADIUS; 0 FOR DEGENERATE 
+           TRIANGLE AND 1 FOR EQUILATERAL TRIANGLE. IT IS RECOMMENDED THAT THE
+           TRIANGULAR QUALITY MEASURE BE GREATER THAN 0.01, THE MIN INTERIOR 
+           ANGLE BE GREATER THAN 10 DEGREES, AND THE MAX INTERIOR ANGLE BE LESS 
+           THAN 160 DEGREES. 
+  
+           NODAL ADJUSTMENTS ARISING FROM CONTACT INTERACTIONS AND/OR TIE 
+           CONSTRAINTS CAN CAUSE SEVERE ELEMENT DISTORTION. IT MAY BE NECESSARY 
+           TO REMESH IN ORDER TO REDUCE THE AMOUNT OF ADJUSTMENT. 
+
+ ***WARNING: 110 elements are distorted. Either the isoparametric angles are 
+             out of the suggested limits or the triangular or tetrahedral 
+             quality measure is bad. The elements have been identified in 
+             element set WarnElemDistorted.
+  
+ --------------------------------------------------------------------------------
+ Distorted isoparametric elements
+  
+      Element        Min/max angle   Adjusted nodes 
+ ------------------ ---------------- -------------- 
+        PART-1-1.29          43.5827       NO       
+        PART-1-1.30          39.3879       NO       
+        PART-1-1.40          42.7999       NO       
+        PART-1-1.46          44.1452       NO       
+        PART-1-1.47          39.8817       NO       
+       PART-1-1.145          43.6121       NO       
+       PART-1-1.146           39.371       NO       
+       PART-1-1.156           42.806       NO       
+       PART-1-1.162          44.1318       NO       
+       PART-1-1.163          39.9021       NO       
+       PART-1-1.315          42.5096       NO       
+       PART-1-1.662          40.2517       NO       
+       PART-1-1.665          36.3616       NO       
+       PART-1-1.667          38.3603       NO       
+      PART-1-1.1030          41.8828       NO       
+      PART-1-1.1084          39.1248       NO       
+      PART-1-1.1268           42.819       NO       
+      PART-1-1.1269          42.1063       NO       
+      PART-1-1.1270          42.8186       NO       
+      PART-1-1.1279          16.0026       NO       
+      PART-1-1.1280          11.1009       NO       
+      PART-1-1.1281          40.0631       NO       
+      PART-1-1.1282          42.7831       NO       
+      PART-1-1.1299          42.6471       NO       
+      PART-1-1.2471          43.3316       NO       
+      PART-1-1.2472          39.7007       NO       
+      PART-1-1.2473          39.4052       NO       
+      PART-1-1.2475          14.8199       NO       
+      PART-1-1.2476          12.9139       NO       
+      PART-1-1.2477          40.6064       NO       
+      PART-1-1.2478          43.5696       NO       
+      PART-1-1.2938           41.017       NO       
+      PART-1-1.2953          38.3105       NO       
+      PART-1-1.2961          44.8933       NO       
+      PART-1-1.2966          41.4294       NO       
+      PART-1-1.2979          39.9446       NO       
+      PART-1-1.2980           31.668       NO       
+      PART-1-1.3012          42.9174       NO       
+      PART-1-1.3013          39.8882       NO       
+      PART-1-1.3015          42.5092       NO       
+      PART-1-1.3016          42.7748       NO       
+      PART-1-1.3017          44.9827       NO       
+      PART-1-1.3363          25.5485       NO       
+      PART-1-1.3426          29.8743       NO       
+      PART-1-1.3868          24.6402       NO       
+      PART-1-1.3875          31.8867       NO       
+      PART-1-1.3943          44.0276       NO       
+      PART-1-1.3944          41.7853       NO       
+      PART-1-1.3950          44.7762       NO       
+      PART-1-1.3951          42.2859       NO       
+      PART-1-1.3952          38.9387       NO       
+      PART-1-1.3953          44.3332       NO       
+      PART-1-1.3954          38.8912       NO       
+      PART-1-1.3955          38.0482       NO       
+      PART-1-1.3958          44.4418       NO       
+      PART-1-1.3959          43.5708       NO       
+      PART-1-1.4428          42.1375       NO       
+      PART-1-1.4439          30.7468       NO       
+      PART-1-1.4542          44.8607       NO       
+      PART-1-1.4559          40.4493       NO       
+      PART-1-1.4560          37.7295       NO       
+      PART-1-1.4561          41.9194       NO       
+      PART-1-1.4574          43.6512       NO       
+      PART-1-1.4575          44.7716       NO       
+      PART-1-1.4630          41.6015       NO       
+      PART-1-1.4638          39.7729       NO       
+      PART-1-1.4639          33.2876       NO       
+      PART-1-1.4640          37.3047       NO       
+      PART-1-1.4641          41.3977       NO       
+      PART-1-1.4944          44.8772       NO       
+      PART-1-1.4973          44.8607       NO       
+      PART-1-1.4990          40.4493       NO       
+      PART-1-1.4991          37.7295       NO       
+      PART-1-1.4992          41.9194       NO       
+      PART-1-1.5005          43.6512       NO       
+      PART-1-1.5006          44.7716       NO       
+      PART-1-1.5061          41.6015       NO       
+      PART-1-1.5069          39.7729       NO       
+      PART-1-1.5070          33.2876       NO       
+      PART-1-1.5071          37.3047       NO       
+      PART-1-1.5072          41.3977       NO       
+      PART-1-1.5375          44.8772       NO       
+      PART-1-1.5404          44.8607       NO       
+      PART-1-1.5421          40.4493       NO       
+      PART-1-1.5422          37.7295       NO       
+      PART-1-1.5423          41.9194       NO       
+      PART-1-1.5436          43.6512       NO       
+      PART-1-1.5437          44.7716       NO       
+      PART-1-1.5489          41.6015       NO       
+      PART-1-1.5497          39.7729       NO       
+      PART-1-1.5498          33.2876       NO       
+      PART-1-1.5499          37.3047       NO       
+      PART-1-1.5500          41.3977       NO       
+      PART-1-1.5801          44.8772       NO       
+      PART-1-1.6010          42.0675       NO       
+      PART-1-1.6031          42.4796       NO       
+      PART-1-1.6068          44.8607       NO       
+      PART-1-1.6085          40.4493       NO       
+      PART-1-1.6086          37.7295       NO       
+      PART-1-1.6087          41.9194       NO       
+      PART-1-1.6100          43.6512       NO       
+      PART-1-1.6101          44.7716       NO       
+      PART-1-1.6153          41.6015       NO       
+      PART-1-1.6161          39.7729       NO       
+      PART-1-1.6162          33.2876       NO       
+      PART-1-1.6163          37.3047       NO       
+      PART-1-1.6164          41.3977       NO       
+      PART-1-1.6465          44.8772       NO       
+      PART-1-1.6674          42.0675       NO       
+      PART-1-1.6695          42.4796       NO       
+  
+
+
+
+                            P R O B L E M   S I Z E
+
+
+          NUMBER OF ELEMENTS IS                                  7732
+          NUMBER OF NODES IS                                    13820
+          NUMBER OF NODES DEFINED BY THE USER                   13820
+          TOTAL NUMBER OF VARIABLES IN THE MODEL                13820
+          (DEGREES OF FREEDOM PLUS MAX NO. OF ANY LAGRANGE MULTIPLIER
+           VARIABLES. INCLUDE *PRINT,SOLVE=YES TO GET THE ACTUAL NUMBER.)
+
+
+
+                              END OF USER INPUT PROCESSING
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   1.4000    
+       SYSTEM TIME (SEC)    =  0.10000    
+       TOTAL CPU TIME (SEC) =   1.5000    
+       WALLCLOCK TIME (SEC) =          2
+1
+
+   Abaqus 6.10-1                                  Date 12-Nov-2020   Time 11:28:05
+   For use by Team AWXS under license from Dassault Systemes or its subsidiary.
+
+                                                                                               STEP    1  INCREMENT    1
+                                                                                          TIME COMPLETED IN THIS STEP   0.00    
+
+
+                        S T E P       1     S T E A D Y   S T A T E   H E A T   T R A N S F E R
+
+
+                                                                                          
+
+     AUTOMATIC TIME CONTROL WITH -
+          A SUGGESTED INITIAL TIME INCREMENT OF                 1.00    
+          AND A TOTAL TIME PERIOD OF                            1.00    
+          THE MINIMUM TIME INCREMENT ALLOWED IS                1.000E-05
+          THE MAXIMUM TIME INCREMENT ALLOWED IS                 1.00    
+  
+                   M E M O R Y   E S T I M A T E
+  
+ PROCESS      FLOATING PT       MINIMUM MEMORY        MEMORY TO
+              OPERATIONS           REQUIRED          MINIMIZE I/O
+             PER ITERATION         (MBYTES)           (MBYTES)
+  
+     1         8.35E+007               26                 49
+  
+ NOTE:
+      (1) SINCE ABAQUS DOES NOT PRE-ALLOCATE MEMORY AND ONLY ALLOCATES MEMORY AS NEEDED DURING THE ANALYSIS,
+          THE MEMORY REQUIREMENT PRINTED HERE CAN ONLY BE VIEWED AS A GENERAL GUIDELINE BASED ON THE BEST
+          KNOWLEDGE AVAILABLE AT THE BEGINNING OF A STEP BEFORE THE SOLUTION PROCESS HAS BEGUN.
+      (2) THE ESTIMATE IS NORMALLY UPDATED AT THE BEGINNING OF EVERY STEP. IT IS THE MAXIMUM VALUE OF THE
+          ESTIMATE FROM THE CURRENT STEP TO THE LAST STEP OF THE ANALYSIS, WITH UNSYMMETRIC SOLUTION TAKEN
+          INTO ACCOUNT IF APPLICABLE. 
+      (3) SINCE THE ESTIMATE IS BASED ON THE ACTIVE DEGREES OF FREEDOM IN THE FIRST ITERATION OF THE 
+          CURRENT STEP, THE MEMORY ESTIMATE MIGHT BE SIGNIFICANTLY DIFFERENT THAN ACTUAL USAGE FOR 
+          PROBLEMS WITH SUBSTANTIAL CHANGES IN ACTIVE DEGREES OF FREEDOM BETWEEN STEPS (OR EVEN WITHIN
+          THE SAME STEP). EXAMPLES ARE: PROBLEMS WITH SIGNIFICANT CONTACT CHANGES, PROBLEMS WITH MODEL
+          CHANGE, PROBLEMS WITH BOTH STATIC STEP AND STEADY STATE DYNAMIC PROCEDURES WHERE ACOUSTIC 
+          ELEMENTS WILL ONLY BE ACTIVATED IN THE STEADY STATE DYNAMIC STEPS.
+      (4) FOR MULTI-PROCESS EXECUTION, THE ESTIMATED VALUE OF FLOATING POINT OPERATIONS FOR EACH PROCESS
+          IS BASED ON AN INITIAL SCHEDULING OF OPERATIONS AND MIGHT NOT REFLECT THE ACTUAL FLOATING 
+          POINT OPERATIONS COMPLETED ON EACH PROCESS. OPERATIONS ARE DYNAMICALY BALANCED DURING EXECUTION, 
+          SO THE ACTUAL BALANCE OF OPERATIONS BETWEEN PROCESSES IS EXPECTED TO BE BETTER THAN THE ESTIMATE
+          PRINTED HERE.
+      (5) THE UPPER LIMIT OF MEMORY THAT CAN BE ALLOCATED BY ABAQUS WILL IN GENERAL DEPEND ON THE VALUE OF
+          THE "MEMORY" PARAMETER AND THE AMOUNT OF PHYSICAL MEMORY AVAILABLE ON THE MACHINE. PLEASE SEE
+          THE "ABAQUS ANALYSIS USER'S MANUAL" FOR MORE DETAILS. THE ACTUAL USAGE OF MEMORY AND OF DISK
+          SPACE FOR SCRATCH DATA WILL DEPEND ON THIS UPPER LIMIT AS WELL AS THE MEMORY REQUIRED TO MINIMIZE
+          I/O. IF THE MEMORY UPPER LIMIT IS GREATER THAN THE MEMORY REQUIRED TO MINIMIZE I/O, THEN THE ACTUAL
+          MEMORY USAGE WILL BE CLOSE TO THE ESTIMATED "MEMORY TO MINIMIZE I/O" VALUE, AND THE SCRATCH DISK
+          USAGE WILL BE CLOSE-TO-ZERO; OTHERWISE, THE ACTUAL MEMORY USED WILL BE CLOSE TO THE PREVIOUSLY
+          MENTIONED MEMORY LIMIT, AND THE SCRATCH DISK USAGE WILL BE ROUGHLY PROPORTIONAL TO THE DIFFERENCE
+          BETWEEN THE ESTIMATED "MEMORY TO MINIMIZE I/O" AND THE MEMORY UPPER LIMIT. HOWEVER ACCURATE
+          ESTIMATE OF THE SCRATCH DISK SPACE IS NOT POSSIBLE.
+      (6) USING "*RESTART, WRITE" CAN GENERATE A LARGE AMOUNT OF DATA WRITTEN IN THE WORK DIRECTORY.
+
+
+          THE ANALYSIS HAS BEEN COMPLETED
+
+
+
+                              ANALYSIS COMPLETE
+                              WITH     1 WARNING MESSAGES ON THE DAT FILE
+
+
+
+     JOB TIME SUMMARY
+       USER TIME (SEC)      =   2.3000    
+       SYSTEM TIME (SEC)    =  0.10000    
+       TOTAL CPU TIME (SEC) =   2.4000    
+       WALLCLOCK TIME (SEC) =          2

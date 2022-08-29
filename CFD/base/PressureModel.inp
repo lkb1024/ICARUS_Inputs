@@ -7,38 +7,55 @@
 **
 *Part, name=Part-1
 *Node
-      1,          2.5,          2.5,          20.
-      2,          2.5,           0.,          20.
-      3,          2.5,          2.5,          15.
-      4,          2.5,           0.,          15.
-      5,          2.5,          2.5,          10.
-      6,          2.5,           0.,          10.
-      7,          2.5,          2.5,           5.
-      8,          2.5,           0.,           5.
-      9,          2.5,          2.5,           0.
-     10,          2.5,           0.,           0.
-     11,           0.,          2.5,          20.
-     12,           0.,           0.,          20.
-     13,           0.,          2.5,          15.
-     14,           0.,           0.,          15.
-     15,           0.,          2.5,          10.
-     16,           0.,           0.,          10.
-     17,           0.,          2.5,           5.
-     18,           0.,           0.,           5.
-     19,           0.,          2.5,           0.
-     20,           0.,           0.,           0.
-*Element, type=C3D8
-1, 11, 12, 14, 13,  1,  2,  4,  3
-2, 13, 14, 16, 15,  3,  4,  6,  5
-3, 15, 16, 18, 17,  5,  6,  8,  7
-4, 17, 18, 20, 19,  7,  8, 10,  9
+      1,           0.,           0.,           0.
+      2,         0.25,           0.,           0.
+      3,          0.5,           0.,           0.
+      4,         0.75,           0.,           0.
+      5,           1.,           0.,           0.
+      6,           0.,         0.25,           0.
+      7,         0.25,         0.25,           0.
+      8,          0.5,         0.25,           0.
+      9,         0.75,         0.25,           0.
+     10,           1.,         0.25,           0.
+     11,           0.,          0.5,           0.
+     12,         0.25,          0.5,           0.
+     13,          0.5,          0.5,           0.
+     14,         0.75,          0.5,           0.
+     15,           1.,          0.5,           0.
+     16,           0.,         0.75,           0.
+     17,         0.25,         0.75,           0.
+     18,          0.5,         0.75,           0.
+     19,         0.75,         0.75,           0.
+     20,           1.,         0.75,           0.
+     21,           0.,           1.,           0.
+     22,         0.25,           1.,           0.
+     23,          0.5,           1.,           0.
+     24,         0.75,           1.,           0.
+     25,           1.,           1.,           0.
+*Element, type=S4
+ 1,  1,  2,  7,  6
+ 2,  2,  3,  8,  7
+ 3,  3,  4,  9,  8
+ 4,  4,  5, 10,  9
+ 5,  6,  7, 12, 11
+ 6,  7,  8, 13, 12
+ 7,  8,  9, 14, 13
+ 8,  9, 10, 15, 14
+ 9, 11, 12, 17, 16
+10, 12, 13, 18, 17
+11, 13, 14, 19, 18
+12, 14, 15, 20, 19
+13, 16, 17, 22, 21
+14, 17, 18, 23, 22
+15, 18, 19, 24, 23
+16, 19, 20, 25, 24
 *Nset, nset=_PickedSet2, internal, generate
-  1,  20,   1
+  1,  25,   1
 *Elset, elset=_PickedSet2, internal, generate
- 1,  4,  1
+  1,  16,   1
 ** Section: Section-1
-*Solid Section, elset=_PickedSet2, material=Material-1
-,
+*Shell Section, elset=_PickedSet2, material=Material-1
+0.1, 5
 *End Part
 **  
 **
@@ -49,14 +66,12 @@
 *Instance, name=Part-1-1, part=Part-1
 *End Instance
 **  
-*Nset, nset=_PickedSet4, internal, instance=Part-1-1
-  1,  2, 11, 12
-*Elset, elset=_PickedSet4, internal, instance=Part-1-1
- 1,
-*Elset, elset=__PickedSurf5_S6, internal, instance=Part-1-1, generate
- 1,  4,  1
-*Surface, type=ELEMENT, name=_PickedSurf5, internal
-__PickedSurf5_S6, S6
+*Nset, nset=_PickedSet9, internal, instance=Part-1-1
+  1,  5, 21, 25
+*Elset, elset=__PickedSurf8_SPOS, internal, instance=Part-1-1, generate
+  1,  16,   1
+*Surface, type=ELEMENT, name=_PickedSurf8, internal
+__PickedSurf8_SPOS, SPOS
 *End Assembly
 ** 
 ** MATERIALS
@@ -76,15 +91,18 @@ __PickedSurf5_S6, S6
 ** 
 ** Name: BC-1 Type: Displacement/Rotation
 *Boundary
-_PickedSet4, 1, 1
-_PickedSet4, 2, 2
-_PickedSet4, 3, 3
+_PickedSet9, 1, 1
+_PickedSet9, 2, 2
+_PickedSet9, 3, 3
+_PickedSet9, 4, 4
+_PickedSet9, 5, 5
+_PickedSet9, 6, 6
 ** 
 ** LOADS
 ** 
 ** Name: Load-1   Type: Pressure
-*Dsload
-_PickedSurf5, P, 1.
+*Dsload, EXTFILE=starccm
+_PickedSurf8, D:\Sources\ICARUS_Models\CFD\base\pressuremodel
 ** 
 ** OUTPUT REQUESTS
 ** 

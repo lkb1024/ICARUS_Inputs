@@ -59,17 +59,16 @@
 ** STEP: Step-1
 ** 
 *Step, name=Step-1, inc=100000
-*Dynamic,EIR
+*Dynamic,direct
 0.1,10.,
 ** 
 ** LOADS
 ** 
 ** Name: Load-1   Type: Concentrated force
 *Cload
-_PickedSet6, 2, 100.
-** Name: Load-3   Type: Rotational body force
-*Dload
-_PickedSet7, CENTRIF, 1.,0.,0.,0.,0.,0.,1.
+_PickedSet6, 2, 1000.
+** Name: Load-2   Type: Inertia relief
+*Extended Inertia Relief
 ** 
 ** OUTPUT REQUESTS
 ** 

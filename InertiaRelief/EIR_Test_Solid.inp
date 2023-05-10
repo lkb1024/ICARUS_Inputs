@@ -59,7 +59,7 @@
 ** STEP: Step-1
 ** 
 *Step, name=Step-1, inc=100000
-*Dynamic,direct
+*Dynamic,EIR
 0.1,10.,
 ** 
 ** LOADS
@@ -69,6 +69,7 @@
 _PickedSet6, 2, 1000.
 ** Name: Load-2   Type: Inertia relief
 *Extended Inertia Relief
+84375.00, 0.625,0.625,10.00, 2.82e+006,2.82e+006,21972.66,0,0,0
 ** 
 ** OUTPUT REQUESTS
 ** 
